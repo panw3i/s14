@@ -17,6 +17,11 @@ while count<3:
 
     count+=1
 
+    if count == 3:
+        continue_confirm  = input("do you want to keep guessing?")
+        if continue_confirm != "n":
+            count = 0
+
 else:
     print("次数用完了")
 
