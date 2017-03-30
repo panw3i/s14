@@ -1,14 +1,12 @@
-f = open("1.txt", "w+")
+f = open("1.txt", "wb+")
 
 print(f.tell())
 print(f.readline())
 print(f.tell())
-f.seek(0)
-
-print(f.encoding)
+# print(f.encoding)
 print("fileno%s"%f.fileno())
 print(f.name)
-
-f.write("h")
+#
+f.write("p".encode())
 f.flush()
 
