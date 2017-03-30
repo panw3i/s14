@@ -38,4 +38,4 @@ print("lolio".rfind("o"))
 print("lolio".find("o"))
 print("1+2+3".split("+"))
 print('li li'.title())
-print('lll'.zfill(20))
+print('lll'.zfill(20))            #补零
