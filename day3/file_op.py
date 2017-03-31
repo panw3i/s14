@@ -7,6 +7,7 @@ print(f.tell())
 print("fileno%s"%f.fileno())
 print(f.name)
 #
+f.read()
 f.write("p".encode())
 f.flush()
 
